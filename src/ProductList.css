@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 /* Reset some default styles */
 body, h1, ul {
     margin: 0;
@@ -6,7 +8,7 @@ body, h1, ul {
 
 /* Set a background color */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Nunito;
     background-color: #f0f0f0;
 }
 
@@ -16,10 +18,11 @@ body {
     color: #fff!important;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     font-size: 20px;
+    gap: 100px;
 }
+
 
 .navbar .ul {
     display: flex;
@@ -51,12 +54,23 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    /* background-color: pink; */
     /* justify-content: space-between; */
     padding: 20px;
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.category-title {
+    margin: 10px;
+    text-align: center;
+}
+
+.category-title hr {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* Product Card */
@@ -97,6 +111,10 @@ body {
     height: 200px; /* Adjust height for better consistency */
 }
 
+.product-description {
+    font-weight: 600;
+}
+
 .product-button {
     background-color: #e74c3c;
     color: #fff;
@@ -104,7 +122,8 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    margin-top: 10px;
+    margin-top: 15px !important;
+    font-family: Nunito;
 }
 
 .product-button:hover {
@@ -140,7 +159,7 @@ body {
     text-decoration: none;
 }
 .tag {
-    width: 400px;
+    width: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,8 +176,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 650px;
+    width: 600px;
     font-size: 19px;
+    gap: 20px;
+    margin-right: 100px;
 }
 .cart{
     color: white;
