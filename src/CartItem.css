@@ -1,5 +1,8 @@
 /* CartItem.css */
 /* CartItem.css */
+.get-started-button {
+  margin-bottom: 10px;
+}
 
 .cart-item {
   display: flex;
@@ -15,6 +18,7 @@
   height: 200px;
   /* object-fit: contain; */
   margin-right: 20px;
+  margin-left: 15px;
 }
 
 .cart-item-details {
